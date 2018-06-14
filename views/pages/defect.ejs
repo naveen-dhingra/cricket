@@ -1,0 +1,65 @@
+
+<%- contentFor('hero') %>
+
+<!-- the content -->
+    <main>
+        <!-- hero content -->
+        <div class="form">
+            <!-- content for the hero -->
+            <div class="form-content">
+                <form action="/defect" method="POST">
+                    <div class="form-group">
+                      <label>Summary :</label>
+                      <input type="text" id="summaryID" name="summary" size=70>
+                    </div>
+                
+                <!-- Split screen 1 -->
+                <div class="split left">
+                    <div class="form-group">
+                      <label>Severity :</label>
+                      <select name="severity" id="severityID">
+                        <option value="Severity1">S1-Critical</option>
+                        <option value="Severity2">S2-High</option>
+                        <option value="Severity3">S3-Medium</option>
+                        <option value="Severity4">S4-High</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label>Assigned To :</label>
+                      <select name="assignedto" id="assignID">
+                        <option value="Devloper1">Developer1</option>
+                        <option value="Devloper2">Developer2</option>
+                        <option value="Devloper3">Developer3</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Status :</label>
+                        <select name="Status" id="statusID">
+                            <option value="new">New</option>
+                            <option value="assigned">Assigned</option>
+                            <option value="open">Open</option>
+                            <option value="fixed">Fixed</option>
+                            <option value="retest">Retest</option>
+                            <option value="reopen">ReOpen</option>
+                            <option value="closed">Closed</option>
+                          </select>
+                    </div>
+                </div>
+
+                      <div class="form-group">
+                        <label>Description :</label>
+                        <textarea type="textarea" name="Description" id="descID" class="form-control" style="width:500px; height:200px">
+                        </textarea>
+                      </div>
+                    </div>
+                    <div class="form-group text-right">
+                      <button type="submit" id="submitID" class="btn btn-primary btn-lg">Create</button>
+                      <button type="close" class="btn btn-primary btn-lg">Close</button>
+                    </div>
+            
+                  </form>
+            
+            </div>
+        </div>
+   
+    </main>
