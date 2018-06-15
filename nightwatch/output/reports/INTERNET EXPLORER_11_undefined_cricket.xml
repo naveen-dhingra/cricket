@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="8">
+
+  <testsuite name="cricket"
+    errors="0" failures="0" hostname="" id="" package="cricket" skipped="0"
+    tests="8" time="22.38" timestamp="Fri, 15 Jun 2018 00:02:59 GMT">
+  
+    <testcase name="Open CriCKet Home Page" classname="cricket" time="4.576" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to Create Defect Page" classname="cricket" time="1.273" assertions="0">
+    </testcase>
+  
+    <testcase name="Verify Defect Page Elements" classname="cricket" time="1.865" assertions="20">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Enter defect details on Defect Page" classname="cricket" time="5.600" assertions="0">
+    </testcase>
+  
+    <testcase name="Go to Defect List page" classname="cricket" time="3.228" assertions="0">
+    </testcase>
+  
+    <testcase name="verify elements of Defect List Page" classname="cricket" time="0.9730" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to Dashboard Page" classname="cricket" time="3.747" assertions="0">
+    </testcase>
+  
+    <testcase name="verify elements of Dashboard Page" classname="cricket" time="1.113" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
