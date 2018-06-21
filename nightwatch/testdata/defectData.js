@@ -1,9 +1,9 @@
 module.exports = {
     defectdetails : {
             summary          : 'Summary of defect',
-            severity         : 'Severity3',
+            severity         : 'Severity1',
             assignedto       : 'Devloper2',
-            status           : 'new',
+            status           : 'retest',
             description      : 'Description of Defect'
         }
     };

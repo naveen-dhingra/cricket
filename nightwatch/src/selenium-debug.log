@@ -1,238 +1,238 @@
-01:02:58.577 INFO - Selenium build info: version: '3.9.1', revision: '63f7b50'
-01:02:58.577 INFO - Launching a standalone Selenium Server on port 4444
-2018-06-15 01:02:58.639:INFO::main: Logging initialized @360ms to org.seleniumhq.jetty9.util.log.StdErrLog
-2018-06-15 01:02:58.764:INFO:osjs.Server:main: jetty-9.4.7.v20170914, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
-2018-06-15 01:02:58.795:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@57536d79{/,null,STARTING} has uncovered http methods for path: /
-2018-06-15 01:02:58.795:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@57536d79{/,null,AVAILABLE}
-2018-06-15 01:02:59.472:INFO:osjs.AbstractConnector:main: Started ServerConnector@238112d4{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2018-06-15 01:02:59.472:INFO:osjs.Server:main: Started @1184ms
-01:02:59.472 INFO - Selenium Server is up and running on port 4444
-2018-06-15 01:02:59.675:INFO:osjshC.ROOT:qtp2080166188-13: org.openqa.selenium.remote.server.WebDriverServlet-28d25987: Initialising WebDriverServlet
-01:02:59.737 INFO - Found handler: org.openqa.selenium.remote.server.commandhandler.BeginSession@3ff14deb
-01:02:59.737 INFO - /session: Executing POST on /session (handler: BeginSession)
-01:02:59.815 INFO - Capabilities are: Capabilities {acceptSslCerts: true, browserName: internet explorer, javascriptEnabled: true, marionette: true, name: Cricket}
-01:02:59.815 INFO - Capabilities {acceptSslCerts: true, browserName: internet explorer, javascriptEnabled: true, marionette: true, name: Cricket} matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.ie.InternetExplorerDriverService)
+10:08:56.315 INFO - Selenium build info: version: '3.9.1', revision: '63f7b50'
+10:08:56.318 INFO - Launching a standalone Selenium Server on port 4444
+2018-06-21 10:08:56.388:INFO::main: Logging initialized @393ms to org.seleniumhq.jetty9.util.log.StdErrLog
+2018-06-21 10:08:56.508:INFO:osjs.Server:main: jetty-9.4.7.v20170914, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-06-21 10:08:56.553:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@57536d79{/,null,STARTING} has uncovered http methods for path: /
+2018-06-21 10:08:56.560:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@57536d79{/,null,AVAILABLE}
+2018-06-21 10:08:57.325:INFO:osjs.AbstractConnector:main: Started ServerConnector@152b7035{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2018-06-21 10:08:57.325:INFO:osjs.Server:main: Started @1329ms
+10:08:57.325 INFO - Selenium Server is up and running on port 4444
+2018-06-21 10:08:57.590:INFO:osjshC.ROOT:qtp2080166188-15: org.openqa.selenium.remote.server.WebDriverServlet-28d25987: Initialising WebDriverServlet
+10:08:57.665 INFO - Found handler: org.openqa.selenium.remote.server.commandhandler.BeginSession@534aad75
+10:08:57.668 INFO - /session: Executing POST on /session (handler: BeginSession)
+10:08:57.755 INFO - Capabilities are: Capabilities {acceptSslCerts: true, browserName: internet explorer, javascriptEnabled: true, marionette: true, name: Cricket}
+10:08:57.758 INFO - Capabilities {acceptSslCerts: true, browserName: internet explorer, javascriptEnabled: true, marionette: true, name: Cricket} matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.ie.InternetExplorerDriverService)
 Started InternetExplorerDriver server (32-bit)
 3.9.0.0
-Listening on port 14628
+Listening on port 5989
 Only local connections are allowed
-01:03:02.920 INFO - Detected dialect: W3C
-01:03:02.967 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:02.967 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/window/current/maximize (handler: ServicedSession)
-01:03:02.982 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:02.982 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/url (handler: ServicedSession)
-01:03:03.201 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:03.201 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:03.263 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:03.263 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:03.326 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:03.326 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/3e726741-3c7a-489d-9066-fb75144fdbf9/displayed (handler: ServicedSession)
-01:03:03.404 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:03.404 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:03.466 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:03.466 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:03.529 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:03.529 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/2092d319-c48f-4dc1-9b22-a53b24f00a24/displayed (handler: ServicedSession)
-01:03:03.591 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:03.591 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:03.660 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:03.660 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:03.720 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:03.720 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/3cb0b550-f273-460e-9edb-7720e69d21f5/displayed (handler: ServicedSession)
-01:03:03.783 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:03.783 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:03.845 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:03.845 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:03.907 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:03.907 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/fb99fbe6-c20e-4769-bed8-0a8f6b85eb5f/displayed (handler: ServicedSession)
-01:03:03.954 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:03.954 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:04.017 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:04.017 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:04.079 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:04.079 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/89d46b40-ca64-4e7a-ac2d-805963fc74ca/displayed (handler: ServicedSession)
-01:03:04.141 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:04.141 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element (handler: ServicedSession)
-01:03:04.206 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:04.206 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/3cb0b550-f273-460e-9edb-7720e69d21f5/click (handler: ServicedSession)
-01:03:05.445 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:05.445 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:05.508 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:05.508 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:05.570 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:05.570 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/7c8f5b53-e8a0-479b-9679-b5ae232b9cfc/displayed (handler: ServicedSession)
-01:03:05.617 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:05.617 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:05.679 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:05.679 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:05.742 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:05.742 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/6cca66e5-fb7d-497e-8bcf-bf24c0ff506e/displayed (handler: ServicedSession)
-01:03:05.791 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:05.791 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:05.853 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:05.853 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:05.915 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:05.915 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/d5f5fe6f-128e-48a7-b952-2a09c1009434/displayed (handler: ServicedSession)
-01:03:05.962 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:05.962 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:06.025 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:06.025 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:06.087 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:06.087 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/a3b329a0-ac65-463c-b181-40c894c089ba/displayed (handler: ServicedSession)
-01:03:06.134 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:06.134 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:06.196 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:06.196 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:06.259 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:06.259 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/41655ebd-c579-4e14-82a2-349640a2fbe4/displayed (handler: ServicedSession)
-01:03:06.403 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:06.403 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:06.466 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:06.466 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:06.528 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:06.528 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/500875ff-8c34-4afb-b73f-7f3d3015450a/displayed (handler: ServicedSession)
-01:03:06.575 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:06.575 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:06.637 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:06.637 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:06.694 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:06.694 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/f32f79ef-e338-4898-976f-28f6192df9e7/displayed (handler: ServicedSession)
-01:03:06.743 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:06.743 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:06.805 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:06.805 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:06.872 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:06.872 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/ba847762-b0a5-4e72-9900-6bc84acc532a/displayed (handler: ServicedSession)
-01:03:06.934 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:06.934 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:06.997 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:06.997 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:07.059 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:07.059 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/0e2d9a49-dfcd-4a18-8089-d5a1cdc31cc2/displayed (handler: ServicedSession)
-01:03:07.121 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:07.121 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:07.170 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:07.170 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:07.233 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:07.233 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/3beaa4a5-144c-4ac0-a7c3-1fd7f2660c00/displayed (handler: ServicedSession)
-01:03:07.279 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:07.279 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element (handler: ServicedSession)
-01:03:07.342 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:07.342 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/41655ebd-c579-4e14-82a2-349640a2fbe4/clear (handler: ServicedSession)
-01:03:07.453 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:07.453 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element (handler: ServicedSession)
-01:03:07.515 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:07.515 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/41655ebd-c579-4e14-82a2-349640a2fbe4/value (handler: ServicedSession)
-01:03:07.816 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:07.831 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element (handler: ServicedSession)
-01:03:07.955 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:07.955 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/500875ff-8c34-4afb-b73f-7f3d3015450a/clear (handler: ServicedSession)
-01:03:08.033 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:08.033 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element (handler: ServicedSession)
-01:03:08.095 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:08.095 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/500875ff-8c34-4afb-b73f-7f3d3015450a/value (handler: ServicedSession)
-01:03:08.329 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:08.329 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element (handler: ServicedSession)
-01:03:08.396 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:08.396 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/f32f79ef-e338-4898-976f-28f6192df9e7/clear (handler: ServicedSession)
-01:03:08.461 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:08.461 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element (handler: ServicedSession)
-01:03:08.523 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:08.523 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/f32f79ef-e338-4898-976f-28f6192df9e7/value (handler: ServicedSession)
-01:03:08.788 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:08.788 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element (handler: ServicedSession)
-01:03:08.898 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:08.898 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/ba847762-b0a5-4e72-9900-6bc84acc532a/clear (handler: ServicedSession)
-01:03:08.965 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:08.965 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element (handler: ServicedSession)
-01:03:09.020 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:09.020 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/ba847762-b0a5-4e72-9900-6bc84acc532a/value (handler: ServicedSession)
-01:03:09.223 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:09.223 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element (handler: ServicedSession)
-01:03:09.285 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:09.285 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/0e2d9a49-dfcd-4a18-8089-d5a1cdc31cc2/clear (handler: ServicedSession)
-01:03:09.394 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:09.394 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element (handler: ServicedSession)
-01:03:09.457 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:09.457 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/0e2d9a49-dfcd-4a18-8089-d5a1cdc31cc2/value (handler: ServicedSession)
-01:03:09.835 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:09.835 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element (handler: ServicedSession)
-01:03:09.898 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:09.898 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/3beaa4a5-144c-4ac0-a7c3-1fd7f2660c00/click (handler: ServicedSession)
-01:03:12.879 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:12.879 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element (handler: ServicedSession)
-01:03:12.957 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:12.957 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/fe7b13b5-8d81-4900-8e78-6e83a8c9ed9c/click (handler: ServicedSession)
-01:03:16.123 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:16.123 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:16.201 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:16.201 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:16.263 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:16.263 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/2d7b25ec-b857-45d6-b966-d7f99ddb1fb2/displayed (handler: ServicedSession)
-01:03:16.310 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:16.310 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:16.377 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:16.377 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:16.438 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:16.438 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/cd4e91d1-ba33-4578-b557-1b19dc225b15/displayed (handler: ServicedSession)
-01:03:16.501 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:16.501 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:16.563 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:16.563 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:16.625 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:16.625 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/20b0ab7e-3fe0-4abd-aae9-0adc8a5adbd3/displayed (handler: ServicedSession)
-01:03:16.688 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:16.688 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:16.766 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:16.766 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:16.828 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:16.828 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/e164341d-fa40-4c09-a879-0e29a20b12cc/displayed (handler: ServicedSession)
-01:03:16.891 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:16.891 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:16.955 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:16.955 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:17.017 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:17.017 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/5b187c74-549e-4e6a-b60c-e8619427caa6/displayed (handler: ServicedSession)
-01:03:17.080 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:17.080 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element (handler: ServicedSession)
-01:03:17.142 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:17.142 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/cd4e91d1-ba33-4578-b557-1b19dc225b15/click (handler: ServicedSession)
-01:03:20.842 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:20.842 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:20.952 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:20.952 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:21.014 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:21.014 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/0eb157c0-427f-49b8-9bf0-3d99c6ce7cf2/displayed (handler: ServicedSession)
-01:03:21.061 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:21.061 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:21.123 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:21.123 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:21.189 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:21.189 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/d98ffcc2-8aa1-4032-b537-1ae9f1afbc88/displayed (handler: ServicedSession)
-01:03:21.236 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:21.236 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:21.300 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:21.300 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:21.363 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:21.363 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/f4b645e4-e0dd-4e9a-8674-1c57b118cdc8/displayed (handler: ServicedSession)
-01:03:21.409 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:21.409 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:21.472 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:21.472 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:21.534 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:21.534 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/bc0513ed-fea5-40ce-851e-191c036e7be2/displayed (handler: ServicedSession)
-01:03:21.597 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:21.597 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:21.659 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:21.659 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:21.722 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:21.722 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/909810f5-bc8d-49b8-9d63-c7976e3c3afc/displayed (handler: ServicedSession)
-01:03:21.769 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:21.769 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:21.831 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:21.831 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing POST on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/elements (handler: ServicedSession)
-01:03:21.893 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:21.893 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing GET on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb/element/9a2faf68-d31a-42f4-be60-8bb94e6d87cc/displayed (handler: ServicedSession)
-01:03:21.940 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ef97ff
-01:03:21.940 INFO - Handler thread for session d296f981-7dd4-4468-8ca2-4b7f3826cdfb (internet explorer): Executing DELETE on /session/d296f981-7dd4-4468-8ca2-4b7f3826cdfb (handler: ServicedSession)
-01:03:21.956 INFO - Removing session org.openqa.selenium.remote.server.ServicedSession@6ef97ff
+10:09:01.785 INFO - Detected dialect: W3C
+10:09:01.850 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:01.853 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/window/current/maximize (handler: ServicedSession)
+10:09:01.873 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:01.873 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/url (handler: ServicedSession)
+10:09:02.088 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:02.088 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:02.145 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:02.145 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:02.193 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:02.193 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/c3e81053-8215-4001-8b28-886392dccbb3/displayed (handler: ServicedSession)
+10:09:02.250 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:02.250 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:02.298 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:02.298 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:02.345 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:02.345 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/8bb6ffd6-17a9-421b-8308-ba09da863782/displayed (handler: ServicedSession)
+10:09:02.395 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:02.395 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:02.453 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:02.453 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:02.500 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:02.500 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/e0ded2b8-d897-4ceb-bfad-bb706a155472/displayed (handler: ServicedSession)
+10:09:02.563 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:02.563 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:02.620 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:02.620 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:02.665 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:02.665 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/6901b933-025d-480d-905a-e7c3f89a607c/displayed (handler: ServicedSession)
+10:09:02.718 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:02.718 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:02.763 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:02.765 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:02.810 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:02.810 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/235aae8d-d78d-462d-8fec-1bd23f78ceee/displayed (handler: ServicedSession)
+10:09:02.863 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:02.863 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element (handler: ServicedSession)
+10:09:02.908 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:02.908 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/e0ded2b8-d897-4ceb-bfad-bb706a155472/click (handler: ServicedSession)
+10:09:04.080 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:04.080 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:04.198 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:04.200 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:04.278 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:04.278 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/d946d899-799e-4f51-9fb5-1dbe7bc33c57/displayed (handler: ServicedSession)
+10:09:04.345 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:04.345 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:04.423 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:04.425 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:04.505 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:04.505 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/5df31259-9c74-4583-b58c-e013e9943780/displayed (handler: ServicedSession)
+10:09:04.570 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:04.570 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:04.650 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:04.653 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:04.745 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:04.745 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/85b24b62-d5e6-4f37-b07e-1888a61eb189/displayed (handler: ServicedSession)
+10:09:04.815 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:04.818 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:04.873 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:04.873 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:04.918 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:04.918 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/1db35373-40f1-4beb-87ae-022c0fd59ea0/displayed (handler: ServicedSession)
+10:09:04.968 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:04.968 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:05.028 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:05.028 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:05.090 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:05.090 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/56536c09-656f-4c8c-b793-71affcab9ee0/displayed (handler: ServicedSession)
+10:09:05.140 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:05.140 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:05.200 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:05.200 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:05.258 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:05.258 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/ee19a7b8-2729-422c-9bac-5f22e90c7c1f/displayed (handler: ServicedSession)
+10:09:05.310 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:05.310 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:05.375 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:05.375 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:05.423 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:05.425 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/c3119d5b-ceb6-4f37-a451-508946ea7013/displayed (handler: ServicedSession)
+10:09:05.473 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:05.473 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:05.530 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:05.530 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:05.585 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:05.588 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/bae8b09e-379b-4fa4-93bf-2d02d758af09/displayed (handler: ServicedSession)
+10:09:05.633 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:05.633 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:05.690 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:05.690 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:05.743 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:05.743 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/a37665ce-6811-4e77-8768-a7afea4f5ddc/displayed (handler: ServicedSession)
+10:09:05.793 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:05.793 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:05.840 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:05.840 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:05.893 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:05.893 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/a1fea7af-86f7-4418-8636-d4e2d07cd559/displayed (handler: ServicedSession)
+10:09:05.945 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:05.945 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element (handler: ServicedSession)
+10:09:06.000 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:06.000 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/56536c09-656f-4c8c-b793-71affcab9ee0/clear (handler: ServicedSession)
+10:09:06.115 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:06.115 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element (handler: ServicedSession)
+10:09:06.160 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:06.160 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/56536c09-656f-4c8c-b793-71affcab9ee0/value (handler: ServicedSession)
+10:09:06.405 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:06.408 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element (handler: ServicedSession)
+10:09:06.463 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:06.463 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/ee19a7b8-2729-422c-9bac-5f22e90c7c1f/clear (handler: ServicedSession)
+10:09:06.518 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:06.518 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element (handler: ServicedSession)
+10:09:06.565 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:06.565 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/ee19a7b8-2729-422c-9bac-5f22e90c7c1f/value (handler: ServicedSession)
+10:09:06.775 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:06.775 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element (handler: ServicedSession)
+10:09:06.958 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:06.960 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/c3119d5b-ceb6-4f37-a451-508946ea7013/clear (handler: ServicedSession)
+10:09:07.108 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:07.108 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element (handler: ServicedSession)
+10:09:07.153 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:07.153 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/c3119d5b-ceb6-4f37-a451-508946ea7013/value (handler: ServicedSession)
+10:09:07.343 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:07.343 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element (handler: ServicedSession)
+10:09:07.455 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:07.455 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/bae8b09e-379b-4fa4-93bf-2d02d758af09/clear (handler: ServicedSession)
+10:09:07.565 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:07.565 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element (handler: ServicedSession)
+10:09:07.695 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:07.695 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/bae8b09e-379b-4fa4-93bf-2d02d758af09/value (handler: ServicedSession)
+10:09:08.020 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:08.020 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element (handler: ServicedSession)
+10:09:08.078 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:08.078 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/a37665ce-6811-4e77-8768-a7afea4f5ddc/clear (handler: ServicedSession)
+10:09:08.190 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:08.190 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element (handler: ServicedSession)
+10:09:08.235 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:08.235 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/a37665ce-6811-4e77-8768-a7afea4f5ddc/value (handler: ServicedSession)
+10:09:08.518 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:08.518 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element (handler: ServicedSession)
+10:09:08.673 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:08.673 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/a1fea7af-86f7-4418-8636-d4e2d07cd559/click (handler: ServicedSession)
+10:09:11.712 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:11.714 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element (handler: ServicedSession)
+10:09:11.807 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:11.807 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/3e8b7a79-2a16-4403-8b12-fa65b7b566c2/click (handler: ServicedSession)
+10:09:14.804 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:14.807 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:14.907 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:14.907 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:14.974 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:14.974 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/ecde9ce7-780a-45e4-9a99-eb6f6faebec1/displayed (handler: ServicedSession)
+10:09:15.034 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:15.034 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:15.089 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:15.092 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:15.144 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:15.144 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/8286ed8a-cb6c-4e12-b5c3-88c0fc2a1bbb/displayed (handler: ServicedSession)
+10:09:15.195 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:15.195 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:15.263 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:15.263 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:15.320 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:15.320 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/f954f123-ade5-4a38-950a-e4db1bd78724/displayed (handler: ServicedSession)
+10:09:15.368 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:15.368 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:15.428 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:15.428 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:15.483 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:15.483 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/5ba32aa3-77ec-4376-9c76-9397f66f957a/displayed (handler: ServicedSession)
+10:09:15.533 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:15.533 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:15.585 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:15.585 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:15.643 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:15.643 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/4e53bfd5-567c-48d4-aca6-34a7132d6090/displayed (handler: ServicedSession)
+10:09:15.693 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:15.693 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element (handler: ServicedSession)
+10:09:15.748 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:15.750 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/8286ed8a-cb6c-4e12-b5c3-88c0fc2a1bbb/click (handler: ServicedSession)
+10:09:19.508 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:19.508 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:19.650 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:19.653 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:19.730 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:19.730 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/df9e2ab1-c306-4964-b768-b5973846d689/displayed (handler: ServicedSession)
+10:09:19.780 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:19.780 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:19.835 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:19.835 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:19.893 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:19.893 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/f9b4f2d3-b4a3-4da4-b6ec-dbe7e58a7e23/displayed (handler: ServicedSession)
+10:09:19.938 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:19.940 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:19.995 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:19.995 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:20.038 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:20.038 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/d5241f60-60b2-42cd-8606-94e5c0097526/displayed (handler: ServicedSession)
+10:09:20.085 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:20.085 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:20.140 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:20.140 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:20.198 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:20.198 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/006fe6fe-4617-40c6-8a53-2a287b58b061/displayed (handler: ServicedSession)
+10:09:20.255 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:20.255 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:20.310 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:20.310 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:20.373 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:20.373 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/02a15c63-3ba2-4ed3-85b3-dbc7ead3fc52/displayed (handler: ServicedSession)
+10:09:20.423 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:20.423 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:20.480 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:20.480 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing POST on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/elements (handler: ServicedSession)
+10:09:20.535 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:20.535 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing GET on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77/element/edefa30a-940d-405c-b09e-ee63e2d35465/displayed (handler: ServicedSession)
+10:09:20.588 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6d62c8ff
+10:09:20.588 INFO - Handler thread for session deeecd82-695b-4c7c-b7fd-140b2279eb77 (internet explorer): Executing DELETE on /session/deeecd82-695b-4c7c-b7fd-140b2279eb77 (handler: ServicedSession)
+10:09:20.600 INFO - Removing session org.openqa.selenium.remote.server.ServicedSession@6d62c8ff

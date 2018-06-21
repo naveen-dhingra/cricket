@@ -6,4 +6,4 @@ module.exports = Object.assign(module.exports, require('../specs/createDefect'))
 
 module.exports = Object.assign(module.exports, require('../specs/defectList'));
 
- module.exports = Object.assign(module.exports, require('../specs/dashboard'));
+module.exports = Object.assign(module.exports, require('../specs/dashboard'));

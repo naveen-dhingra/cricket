@@ -1,5 +1,4 @@
 
-
 module.exports = {
     'Open CriCKet Home Page': function (browser) {
         var homePage = browser.page.homePage().navigate();
