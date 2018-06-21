@@ -1,0 +1,5 @@
+node_modules
+.git
+.vscode
+nightwatch\output\reports
+selenium-debug.log
