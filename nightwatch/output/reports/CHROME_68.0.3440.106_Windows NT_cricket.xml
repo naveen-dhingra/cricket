@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="11">
+
+  <testsuite name="cricket"
+    errors="0" failures="0" hostname="" id="" package="cricket" skipped="0"
+    tests="11" time="28.02" timestamp="Wed, 22 Aug 2018 12:23:16 GMT">
+  
+    <testcase name="Open CriCKet Home Page" classname="cricket" time="13.21" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Login to Cricket" classname="cricket" time="0.1750" assertions="0">
+    </testcase>
+  
+    <testcase name="Enter login details" classname="cricket" time="2.716" assertions="0">
+    </testcase>
+  
+    <testcase name="verify elements of Profile Page" classname="cricket" time="0.2870" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to Create Defect page" classname="cricket" time="2.211" assertions="0">
+    </testcase>
+  
+    <testcase name="Verify Defect Page Elements" classname="cricket" time="0.6280" assertions="20">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Enter defect details on Defect Page" classname="cricket" time="2.999" assertions="0">
+    </testcase>
+  
+    <testcase name="Go to Defect List page" classname="cricket" time="2.243" assertions="0">
+    </testcase>
+  
+    <testcase name="verify elements of Defect List Page" classname="cricket" time="0.2830" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to Dashboard Page" classname="cricket" time="2.753" assertions="0">
+    </testcase>
+  
+    <testcase name="verify elements of Dashboard Page" classname="cricket" time="0.5160" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

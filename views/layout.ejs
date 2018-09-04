@@ -19,9 +19,14 @@
             <!-- main navigation links -->
             <nav id="main-navigation">
                 <ul>
+                    <% if(loggedin) {%>
+                    <li><a id="logout" href="../logout">Logout</a></li>
                     <li><a id="dashboard" href="../dashboard">Dashboard</a></li>
                     <li><a id="defectid" href="../defect">Create Defect</a></li>
                     <li><a id="resultsid" href="../modify">Defects List</a></li>
+                    <% } else { %>
+                    <li><a id="login" href="../login">Login/Register</a></li>
+                    <% } %>                    
                 </ul>
             </nav>
         </header>

@@ -7,9 +7,15 @@
         <div class="hero">
             <!-- content for the hero -->
             <div class="hero-content">
+                <% if(loggedin) {%>
+                <h1 class="hero-title">Welcome!</h1>
+                <p><%= userlogged.local.email %></p>
+                <% } else { %>
                 <h1 class="hero-title">CriCKeT</h1>
                 <p>The best and most comprehensive defect management tool.</p>
                 <a href="#sitesection" id="learnID">Learn More</a>
+                <a href="../login" id="loginID">Login</a>
+                <% } %>
             </div>
         </div>
 

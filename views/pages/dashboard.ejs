@@ -1,3 +1,4 @@
+
 <%- contentFor('hero') %>
 
 <% var sev1count = 0, sev2count = 0, sev3count = 0, sev4count = 0%>
@@ -86,11 +87,11 @@ status5count = 0,status6count = 0,status7count = 0%>
 
         // Set chart options
         var options = {'title':'Defects Severity',
-                       'width':1200, 
-                       'height':400};
+                       'width':680, 
+                       'height':300};
 
         // Instantiate and draw chart, passing in some options.
-        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
         chart.draw(data, options);
 
         var barchartdata = new google.visualization.DataTable();
@@ -112,8 +113,8 @@ status5count = 0,status6count = 0,status7count = 0%>
         hAxis: {
           title: 'Defect Status',
           viewWindow: {
-            min: [7, 30, 0],
-            max: [17, 30, 0]
+            min: [20, 15, 0],
+            max: [30, 15, 0]
           }
         },
         vAxis: {
@@ -123,17 +124,59 @@ status5count = 0,status6count = 0,status7count = 0%>
 
         var barchart = new google.visualization.ColumnChart(document.getElementById('barchart'));
         barchart.draw(barchartdata, options);
-
-        
       }
     </script>
 
+    <main>
+    <div class="hero" style="background:#ffffff">
+    <div><p> </p></div>
+      <div id="row" style="float:left; display: flex;">
+      <div id="col" style="flex: 1;">
+      <h3 class="hero-title" style="text-align:left; width:50%; margin-left:20px;">Severity Totals</h3>
+      <table id="Severity Count" style="height:100px; width:500px; background:#ffffff; margin-left:20px;">
+        <tr class="header">
+        <th style="width:20%;">Severity 1</th>
+        <th style="width:20%;">Severity 2</th>
+        <th style="width:20%;">Severity 3</th>
+        <th style="width:20%;">Severity 4</th>
+        </tr>
+        <tr class="data">
+        <td style="width:20%;"><%= sev1count %></td>
+        <td style="width:20%;"><%= sev2count %></td>
+        <td style="width:20%;"><%= sev3count %></td>
+        <td style="width:20%;"><%= sev4count %></td> 
+      </table>
+      </div>
+      
+      <div id="col" style="flex: 1;">
+      <h3 class="hero-title" style="text-align:left; width:50%; margin-left:200px;">Status Totals</h3>
+      <table id="Status Count" style="height:100px; width:500px; background:#ffffff; margin-left:200px">
+        <tr class="header">
+        <th style="width:20%;">New</th>
+        <th style="width:20%;">Assigned</th>
+        <th style="width:20%;">Open</th>
+        <th style="width:20%;">Fixed</th>
+        <th style="width:20%;">Retest</th>
+        <th style="width:20%;">ReOpen</th>
+        <th style="width:20%;">Closed</th>
+        </tr>
+        <tr class="data">
+        <td style="width:20%;"><%= status1count %></td>
+        <td style="width:20%;"><%= status2count %></td>
+        <td style="width:20%;"><%= status3count %></td>
+        <td style="width:20%;"><%= status4count %></td> 
+        <td style="width:20%;"><%= status5count %></td> 
+        <td style="width:20%;"><%= status6count %></td> 
+        <td style="width:20%;"><%= status7count %></td> 
+      </table>
+      </div>
+      </div>
+     
 
-
-  <body>
     <!--Div that will hold the pie chart-->
-    <div id="chart_div"></div>
-    <div id="barchart"></div>
-
-
-  </body>
+    <div id="piechart" style="height:100px; width:500px; background:#ffffff; float:left"></div>
+    <div id="barchart" style="height:200px; width:700px; background:#ffffff; margin-left:600px; float:right"></div>
+    
+    </div>
+    </div>
+  </main>

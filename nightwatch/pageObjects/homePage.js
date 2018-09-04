@@ -1,10 +1,9 @@
 module.exports = {
-    url: 'http://localhost:8080',
+    url: 'http://localhost:4444',
     elements: {
         'logo'          :   '#logo',
-        'headerdash'    :   '#dashboard',
-        'headerdefect'    :   '#defectid',
-        'headerlist'    :   '#resultsid',
+        'headerlogin'    :   '#login',
+        'contentlogin'    :   '#loginID',
         'learnmore'    :   '#learnID'
     },
     commands: [

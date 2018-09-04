@@ -10,7 +10,7 @@
       "start_process" : true,
       "server_path" : "./nightwatch/src/selenium-server-standalone-3.9.1.jar",
       "log_path" : "./nightwatch/src/",
-      "port" : 4444,
+      "port" : 4445,
       "cli_args" : {
         "webdriver.chrome.driver" : "./nightwatch/src/binaries/chromedriver.exe",
         "webdriver.gecko.driver" : "",
@@ -21,7 +21,7 @@
     "test_settings" : {
       "default" : {
         "launch_url" : "http://localhost",
-        "selenium_port"  : 4444,
+        "selenium_port"  : 4445,
         "selenium_host"  : "localhost",
         "silent": true,
         "screenshots" : {
@@ -29,7 +29,7 @@
           "path" : "./nightwatch/output/screenshots"
         },
         "desiredCapabilities": {
-          "browserName": "internet explorer",
+          "browserName": "chrome",
           "marionette": true
         }
       },
